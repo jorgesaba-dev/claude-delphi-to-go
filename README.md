@@ -2,6 +2,8 @@
 
 Uma skill para [Claude Code](https://claude.com/claude-code) que converte código e telas legadas de **Delphi** (Object Pascal, VCL, `.dfm`, FireDAC/FIBPlus sobre Firebird ou InterBase) para **Go idiomático + tela web**, através de leitura semântica assistida por IA em vez de tradução mecânica linha a linha.
 
+> Licenciado sob [PolyForm Noncommercial 1.0.0](LICENSE): livre pra clonar e usar em projetos pessoais, estudo ou pesquisa. Uso comercial exige autorização prévia — veja a seção "Precisa de ajuda com uma migração real?" abaixo.
+
 ## Por que isso existe
 
 Delphi (formulários visuais `.dfm`, componentes `TDataSet`, fluxo modal `ModalResult`) e Go (sem framework de UI, sem classes, sem herança) são paradigmas incompatíveis demais para que um tradutor de sintaxe produza algo utilizável — principalmente na camada de tela. Conversores mecânicos existem (inclusive alguns genéricos multi-linguagem), mas eles traduzem token por token: o resultado compila, mas não faz sentido como aplicação web.
@@ -84,4 +86,4 @@ Esta skill resolve boa parte do trabalho mecânico, mas sistemas Delphi legados 
 
 ## Licença
 
-MIT — veja [LICENSE](LICENSE).
+[PolyForm Noncommercial License 1.0.0](LICENSE) — livre para ler, clonar, estudar e usar para fins não comerciais (pessoal, pesquisa, ensino). Uso comercial (incorporar num produto/serviço vendido, ou consultoria remunerada baseada nisso) exige autorização prévia — veja a seção acima.
