@@ -78,6 +78,10 @@ Um formulário de busca `Cns_Cliente.pas` (arquétipo Consulta/Busca) com campos
 
 Relatos de conversões que não se encaixaram bem nos três arquétipos, ou padrões Delphi comuns que a skill ainda não reconhece, são bem-vindos via issue.
 
+## Precisa de ajuda com uma migração real?
+
+Esta skill resolve boa parte do trabalho mecânico, mas sistemas Delphi legados de verdade sempre têm regras de negócio específicas que exigem decisão humana. Se você tem um sistema Delphi/VCL/Firebird real para migrar e quer ajuda além do que a skill entrega sozinha, abra uma [issue](../../issues) descrevendo o cenário ou entre em contato pelo perfil [@jorgesaba-dev](https://github.com/jorgesaba-dev).
+
 ## Licença
 
 MIT — veja [LICENSE](LICENSE).
